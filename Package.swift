@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let package = Package(name: "MaterialDesignTextField",
-					  platforms: [.iOS(.v15), .macOS(.v12)],
-					  products: [.library(name: "MaterialDesignTextField", targets: ["MaterialDesignTextField"])],
-					  targets: [.target(name: "MaterialDesignTextField")])
+let package = Package(name: "LegacyMaterialDesignTextField",
+					  platforms: [.iOS(.v13)],
+					  products: [.library(name: "LegacyMaterialDesignTextField", targets: ["LegacyMaterialDesignTextField"])],
+					  targets: [.target(name: "LegacyMaterialDesignTextField")])

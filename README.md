@@ -5,14 +5,14 @@ A SwiftUI text field, inspired by [Material Design](https://m3.material.io/compo
 An example of usage:
 
     VStack {
-        MaterialDesignTextField($viewModel.text1,
+        LegacyMaterialDesignTextField($viewModel.text1,
                                 placeholder: viewModel.placeholder1,
                                 hint: $viewModel.hint1,
                                 editing: $editingTextField1,
                                 valid: $viewModel.text1Valid)
             .padding()
             .onTapGesture { editingTextField1 = true }
-        MaterialDesignTextField($viewModel.text2,
+        LegacyMaterialDesignTextField($viewModel.text2,
                                 placeholder: viewModel.placeholder2,
                                 hint: $viewModel.hint2,
                                 editing: $editingTextField2,
